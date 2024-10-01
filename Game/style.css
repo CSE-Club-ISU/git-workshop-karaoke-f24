@@ -1,0 +1,55 @@
+
+* {
+    color: white;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+canvas {
+    border: solid 2px white;
+    display: inline-block;
+}
+
+div {
+    display: none;
+}
+
+section, article {
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    font-size: 22px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    height: 25px;
+}
+
+label {
+    font-size: 10px;
+}
+
+.remap {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    height: 25px;
+    width: 80px;
+    padding: 3px;
+}
+
+#ctrlmap {
+    display: none;
+}
